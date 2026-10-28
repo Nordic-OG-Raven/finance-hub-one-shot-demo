@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+
+# generated artifacts
+warehouse.duckdb
+data/raw/
+__pycache__/
+*.pyc
+.DS_Store
+
+# interview collateral — not part of the code project
+TALKTRACK.md
+onepager.html
+
+# local agent/tooling config
+.agents/
+.claude/
